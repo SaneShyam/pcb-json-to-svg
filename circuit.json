@@ -1,0 +1,15 @@
+{
+    "components": [
+        {"name": "J1", "type": "terminal", "value": "+5 V"},
+        {"name": "SW1", "type": "switch", "value": "on/off"},
+        {"name": "R1", "type": "resistor", "value": "330 ohm"},
+        {"name": "J2", "type": "terminal", "value": "0 V"},
+        {"name": "LED1", "type": "LED", "value": "red"}
+    ],
+    "connections": [
+        {"from": "J1", "to": "SW1"},
+        {"from": "SW1", "to": "R1"},
+        {"from": "R1", "to": "LED1"},
+        {"from": "LED1", "to": "J2"}
+    ]
+}

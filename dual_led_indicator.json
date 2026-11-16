@@ -1,0 +1,22 @@
+{
+  "components": [
+    {"name": "J1", "type": "terminal", "value": "+5 V"},
+    {"name": "F1", "type": "fuse", "value": "500 mA"},
+    {"name": "SW1", "type": "switch", "value": "on/off"},
+    {"name": "J2", "type": "terminal", "value": "0 V"},
+    {"name": "LED1", "type": "LED", "value": "red"},
+    {"name": "R1", "type": "resistor", "value": "330 ohm"},
+    {"name": "LED2", "type": "LED", "value": "green"},
+    {"name": "R2", "type": "resistor", "value": "330 ohm"}
+  ],
+  "connections": [
+    {"from": "J1", "to": "F1", "net": "power"},
+    {"from": "F1", "to": "SW1", "net": "power"},
+    {"from": "SW1", "to": "R1"},
+    {"from": "R1", "to": "LED1"},
+    {"from": "SW1", "to": "R2"},
+    {"from": "R2", "to": "LED2"},
+    {"from": "LED1", "to": "J2", "net": "ground"},
+    {"from": "LED2", "to": "J2", "net": "ground"}
+  ]
+}

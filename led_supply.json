@@ -1,0 +1,13 @@
+{
+  "components": [
+    {"name": "J1", "type": "terminal", "value": "+5 V"},
+    {"name": "R1", "type": "resistor", "value": "470 ohm"},
+    {"name": "LED1", "type": "LED", "value": "green"},
+    {"name": "J2", "type": "terminal", "value": "0 V"}
+  ],
+  "connections": [
+    {"from": "J1", "to": "R1", "net": "power"},
+    {"from": "R1", "to": "LED1"},
+    {"from": "LED1", "to": "J2", "net": "ground"}
+  ]
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="570" height="320">
+<rect x="10" y="10" width="550" height="300" rx="12" fill="#d7ead7" stroke="#1b5e20" stroke-width="3"/>
+<circle cx="28" cy="28" r="6" fill="white" stroke="black"/>
+<circle cx="28" cy="292" r="6" fill="white" stroke="black"/>
+<circle cx="542" cy="28" r="6" fill="white" stroke="black"/>
+<circle cx="542" cy="292" r="6" fill="white" stroke="black"/>
+<text x="50" y="33" font-size="11">Board outline 550 x 300 px (not to scale)</text>
+<polyline points="90,75 45,75 45,195 90,195" fill="none" stroke="green" stroke-width="3"/>
+<polyline points="90,195 240,195" fill="none" stroke="green" stroke-width="3"/>
+<polyline points="240,195 195,195 195,75 240,75" fill="none" stroke="green" stroke-width="3"/>
+<polyline points="240,75 390,75" fill="none" stroke="green" stroke-width="3"/>
+<rect x="60" y="60" width="60" height="30" fill="lightblue" stroke="black"/>
+<text x="60" y="110" font-size="16">J1</text>
+<text x="60" y="130" font-size="12">terminal: +5 V</text>
+<rect x="60" y="180" width="60" height="30" fill="lightblue" stroke="black"/>
+<text x="60" y="230" font-size="16">SW1</text>
+<text x="60" y="250" font-size="12">switch: on/off</text>
+<rect x="210" y="180" width="60" height="30" fill="lightblue" stroke="black"/>
+<text x="210" y="230" font-size="16">R1</text>
+<text x="210" y="250" font-size="12">resistor: 330 ohm</text>
+<rect x="360" y="60" width="60" height="30" fill="lightblue" stroke="black"/>
+<text x="360" y="110" font-size="16">J2</text>
+<text x="360" y="130" font-size="12">terminal: 0 V</text>
+<rect x="210" y="60" width="60" height="30" fill="lightblue" stroke="black"/>
+<text x="210" y="110" font-size="16">LED1</text>
+<text x="210" y="130" font-size="12">LED: red</text>
+</svg>

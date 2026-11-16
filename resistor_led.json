@@ -1,0 +1,9 @@
+{
+  "components": [
+    {"name": "R1", "type": "resistor", "value": "220 ohm"},
+    {"name": "LED1", "type": "LED", "value": "green"}
+  ],
+  "connections": [
+    {"from": "R1", "to": "LED1"}
+  ]
+}
